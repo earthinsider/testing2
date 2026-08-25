@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Toolbench — EarthInsider</title>
+  <link>https://tools.earthinsider.in/</link>
+  <atom:link href="https://tools.earthinsider.in/feed.xml" rel="self" type="application/rss+xml" />
+  <description>Newly added AI, SEO, design and automation tools.</description>
+  <language>en-us</language>
+  <lastBuildDate>Tue, 25 Aug 2026 00:00:00 GMT</lastBuildDate>
+
+  <item>
+    <title>Runway — AI Tools</title>
+    <link>https://tools.earthinsider.in/category/ai-tools.html#runway</link>
+    <guid>https://tools.earthinsider.in/category/ai-tools.html#runway</guid>
+    <description>AI video generation and editing suite.</description>
+    <category>AI Tools</category>
+    <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>ElevenLabs — AI Tools</title>
+    <link>https://tools.earthinsider.in/category/ai-tools.html#elevenlabs</link>
+    <guid>https://tools.earthinsider.in/category/ai-tools.html#elevenlabs</guid>
+    <description>AI voice generation and cloning for narration and dubbing.</description>
+    <category>AI Tools</category>
+    <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>n8n — Automation Tools</title>
+    <link>https://tools.earthinsider.in/category/automation-tools.html#n8n</link>
+    <guid>https://tools.earthinsider.in/category/automation-tools.html#n8n</guid>
+    <description>Self-hostable workflow automation, node-based, API-first.</description>
+    <category>Automation Tools</category>
+    <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+
+</channel>
+</rss>

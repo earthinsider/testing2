@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toolbench — Every tool, one bench</title>
+<meta name="description" content="A curated directory of AI, SEO, design and automation tools — searchable, categorized, and updated regularly.">
+<link rel="canonical" href="https://tools.earthinsider.in/">
+<link rel="alternate" type="application/rss+xml" title="Toolbench RSS" href="/feed.xml">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="/">TOOLBENCH</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark and light theme">◐ light</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">A workbench of tools</p>
+    <h1>Every tool, one bench.</h1>
+    <p>AI, SEO, design and automation tools — tested, tagged and searchable. No fluff, no affiliate spam.</p>
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Search tools, e.g. 'voice cloning'" aria-label="Search tools">
+    </div>
+  </div>
+</section>
+
+<section class="tools-section">
+  <div class="wrap">
+    <nav class="pegboard-nav" id="pegboard-nav" aria-label="Filter by category"></nav>
+    <div class="breadcrumb" id="result-count" aria-live="polite"></div>
+    <div class="tools-grid" id="tools-grid"></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© <span id="year"></span> Toolbench · EarthInsider</span>
+    <div class="footer-links">
+      <a href="/feed.xml">RSS</a>
+      <a href="/sitemap.xml">Sitemap</a>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="/script.js"></script>
+</body>
+</html>

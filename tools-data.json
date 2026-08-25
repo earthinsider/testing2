@@ -1,0 +1,126 @@
+{
+  "categories": [
+    {
+      "slug": "ai-tools",
+      "name": "AI Tools",
+      "icon": "◆",
+      "description": "AI models, copilots and generators for research, writing and media."
+    },
+    {
+      "slug": "seo-tools",
+      "name": "SEO Tools",
+      "icon": "▲",
+      "description": "Keyword research, indexing, audits and rank tracking."
+    },
+    {
+      "slug": "design-tools",
+      "name": "Design Tools",
+      "icon": "●",
+      "description": "Thumbnails, graphics, icons and image editing."
+    },
+    {
+      "slug": "automation-tools",
+      "name": "Automation Tools",
+      "icon": "■",
+      "description": "Workflow automation, APIs and no-code pipelines."
+    }
+  ],
+  "tools": [
+    {
+      "name": "Perplexity",
+      "slug": "perplexity",
+      "category": "ai-tools",
+      "description": "AI answer engine with cited web sources, good for fast research.",
+      "url": "https://www.perplexity.ai",
+      "tags": ["free", "research"]
+    },
+    {
+      "name": "ElevenLabs",
+      "slug": "elevenlabs",
+      "category": "ai-tools",
+      "description": "AI voice generation and cloning for narration and dubbing.",
+      "url": "https://elevenlabs.io",
+      "tags": ["freemium", "voice"]
+    },
+    {
+      "name": "Runway",
+      "slug": "runway",
+      "category": "ai-tools",
+      "description": "AI video generation and editing suite.",
+      "url": "https://runwayml.com",
+      "tags": ["freemium", "video"]
+    },
+    {
+      "name": "Google Search Console",
+      "slug": "search-console",
+      "category": "seo-tools",
+      "description": "Indexing status, search queries and site health straight from Google.",
+      "url": "https://search.google.com/search-console",
+      "tags": ["free", "indexing"]
+    },
+    {
+      "name": "Ahrefs Webmaster Tools",
+      "slug": "ahrefs-webmaster-tools",
+      "category": "seo-tools",
+      "description": "Free backlink and on-page audit tool for verified site owners.",
+      "url": "https://ahrefs.com/webmaster-tools",
+      "tags": ["free", "backlinks"]
+    },
+    {
+      "name": "AnswerThePublic",
+      "slug": "answerthepublic",
+      "category": "seo-tools",
+      "description": "Visualizes real search questions people ask around a keyword.",
+      "url": "https://answerthepublic.com",
+      "tags": ["freemium", "keywords"]
+    },
+    {
+      "name": "Canva",
+      "slug": "canva",
+      "category": "design-tools",
+      "description": "Drag-and-drop design for thumbnails, banners and social posts.",
+      "url": "https://canva.com",
+      "tags": ["freemium", "thumbnails"]
+    },
+    {
+      "name": "Photopea",
+      "slug": "photopea",
+      "category": "design-tools",
+      "description": "Free browser-based Photoshop-style editor, no install needed.",
+      "url": "https://photopea.com",
+      "tags": ["free", "editor"]
+    },
+    {
+      "name": "TinyPNG",
+      "slug": "tinypng",
+      "category": "design-tools",
+      "description": "Compresses PNG and JPEG images without visible quality loss.",
+      "url": "https://tinypng.com",
+      "tags": ["free", "compression"]
+    },
+    {
+      "name": "n8n",
+      "slug": "n8n",
+      "category": "automation-tools",
+      "description": "Self-hostable workflow automation, node-based, API-first.",
+      "url": "https://n8n.io",
+      "tags": ["free", "self-hosted"]
+    },
+    {
+      "name": "Supabase",
+      "slug": "supabase",
+      "category": "automation-tools",
+      "description": "Postgres database with instant APIs, used as a backend for automations.",
+      "url": "https://supabase.com",
+      "tags": ["freemium", "database"]
+    },
+    {
+      "name": "Buffer",
+      "slug": "buffer",
+      "category": "automation-tools",
+      "description": "Schedules and cross-posts content across social platforms via API.",
+      "url": "https://buffer.com",
+      "tags": ["freemium", "scheduling"]
+    }
+  ]
+}
